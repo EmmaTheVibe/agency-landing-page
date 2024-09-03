@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="main">
       <Navbar matches={matches} />
-      <Home />
+      <Home matches={matches} />
       <Services matches={matches} />
       <Resources matches={matches} />
       <Testimonials />

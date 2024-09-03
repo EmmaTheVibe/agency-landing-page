@@ -78,4 +78,9 @@ const gallery = [
   },
 ];
 
-export { gridData, resources, testimonials, gallery };
+const banners = {
+  desktopUrl: "./images/desktop/image-header.jpg",
+  mobileUrl: "./images/mobile/image-header.jpg",
+};
+
+export { gridData, resources, testimonials, gallery, banners };

@@ -1,6 +1,16 @@
-export default function Home() {
+import { banners } from "../utils/data";
+
+export default function Home({ matches }) {
   return (
-    <div className="home" id="home">
+    <div
+      className="home"
+      id="home"
+      style={{
+        backgroundImage: `url(${
+          matches ? banners.mobileUrl : banners.desktopUrl
+        })`,
+      }}
+    >
       <div className="banner">
         <h1 className="line-1">WE ARE</h1>{" "}
         <h1 className="line-2"> CREATIVES</h1>

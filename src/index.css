@@ -115,7 +115,6 @@ body {
   min-height: 105vh;
   padding-top: 15vh;
   padding-bottom: 50px;
-  background-image: url(./images/desktop/image-header.jpg);
   background-position: center;
   background-size: cover;
   display: flex;
@@ -507,10 +506,6 @@ h1 {
 @media screen and (max-width: 700px) {
   .hamburger {
     display: block;
-  }
-
-  .home {
-    background-image: url(./images/mobile/image-header.jpg);
   }
 
   h1 {
